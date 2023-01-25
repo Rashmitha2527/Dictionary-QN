@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+}
+.both input{
+    height: 35px;
+    width: 250px;
+    border: 3px solid black;
+    margin-top: -40px;
+    border-radius: 10px;
+}
+.both button{
+    border-radius: 0px;
+    border: 2px solid #161e54;
+    margin-top: 20px;
+    margin-left: -4px;
+    height: 40px;
+    font-size: 20px;
+    width: 100px;
+    color: rgb(233, 253, 12);
+    background-color: #0524f4;
+}
+
+.Heading{
+    height: 8vh;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    background-color: #7888f6;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 55%;
+    height: 20vh;
+}
+.container h4{
+    height: 5vh;
+    margin-left: -150px;
+}
+.controls{
+    width: 55%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#audio{
+    margin-top: 20px;
+    height: 10vh;
+    border-radius: 10px;
+}
+#def{
+     height: 43px;
+    width: 50%;
+}
+h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#searchButton{
+    margin-top: 5px;
+    border-radius: 10px;
+}
